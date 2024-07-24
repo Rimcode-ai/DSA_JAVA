@@ -1,5 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="DSA_JAVA" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="main" />
     <module name="DSA_JAVA" />
     <method v="2">
       <option name="Make" enabled="true" />
