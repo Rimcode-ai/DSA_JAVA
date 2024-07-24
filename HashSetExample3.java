@@ -2,7 +2,10 @@
 Unique Number Detection with Java HashSets
 
 Problem: Unique Number Echo
-
+Problem: Unique Echo
+            Given  avast list of words & you must identify the final word that stands proudly solitary.
+            The last word is not repeated. Sorting through a database of unique identifiers and Find the one identifier
+            towards the end of the list that is unlike any others.
  */
 
 import java.util.Arrays;
