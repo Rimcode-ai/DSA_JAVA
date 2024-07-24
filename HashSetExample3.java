@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 public class HashSetExample3 {
-    int [] arr1= new int[] {1,1,1,2,2,3,3,4,4,5,5,61,61,77,77,89,89,100};
+    int [] arr1= new int[] {1,1,1,2,2,3,3,4,4,5,5,61,61,77,77,89,89,100,101};
     
     
    public Integer uniqueEcho(int [] arr) {
@@ -29,10 +29,13 @@ public class HashSetExample3 {
         }
        uniqueWordList.removeAll(duplicateList);
 
-        for (int num : arr){
-            if (uniqueWordList.contains(num)){
-                return num;    }
+        int lastUniqueNumber;
+        for (int i=arr1.length-1; i >= 0; i--){
+            if (uniqueWordList.contains(arr1[i])){
+                lastUniqueNumber = arr1[i];
+                return lastUniqueNumber;
         }
+   }
 
         return 0;
    }
