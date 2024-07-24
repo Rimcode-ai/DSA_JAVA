@@ -1,6 +1,6 @@
 /*
 Problem: Check if 2 sets are disjoint
-            retutn True if no elements match
+            return True if no elements match
  */
 import java.util.HashSet;
 import java.util.Set;
